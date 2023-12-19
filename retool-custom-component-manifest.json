@@ -1,0 +1,66 @@
+{
+  "customComponentSupportVersion": "1",
+  "components": {
+    "HelloWorld": {
+      "name": "Hello World",
+      "model": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "string",
+          "hidden": false,
+          "defaultValue": "World",
+          "description": null
+        }
+      ],
+      "events": [
+        "click"
+      ],
+      "defaultHeight": 5,
+      "defaultWidth": 2
+    },
+    "ListItem": {
+      "name": "List Item",
+      "model": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "hidden": false,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "string",
+          "hidden": false,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "image",
+          "label": "Image",
+          "type": "string",
+          "hidden": false,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "action",
+          "label": "Action",
+          "type": "string",
+          "hidden": false,
+          "defaultValue": null,
+          "description": null
+        }
+      ],
+      "events": [
+        "click",
+        "clickAction"
+      ],
+      "defaultHeight": 5,
+      "defaultWidth": 2
+    }
+  }
+}
